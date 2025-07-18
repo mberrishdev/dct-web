@@ -336,17 +336,17 @@ function App() {
               Streamline your .NET development with automated CQRS and Clean Architecture generation
             </p>
             <div className="flex justify-center gap-6 mb-8">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/mberrishdev/dct" className="text-gray-400 hover:text-white transition-colors">
                 <GitBranch className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/mberrishdev/dct" className="text-gray-400 hover:text-white transition-colors">
                 <ExternalLink className="w-6 h-6" />
               </a>
             </div>
             <div className="border-t border-gray-800 pt-8">
               <p className="text-gray-400 text-sm">
                 © 2024 Mikheil Berishvili. MIT License. 
-                <a href="#" className="text-blue-400 hover:text-blue-300 ml-1">
+                <a href="https://github.com/mberrishdev/dct/blob/master/LICENSE" className="text-blue-400 hover:text-blue-300 ml-1">
                   See LICENSE for details
                 </a>
               </p>
