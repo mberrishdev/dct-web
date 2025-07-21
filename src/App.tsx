@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   Terminal, 
   Zap, 
@@ -13,7 +12,7 @@ import {
   FileText,
   Gauge
 } from 'lucide-react';
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const copyToClipboard = (text: string) => {
