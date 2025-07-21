@@ -10,11 +10,10 @@ import {
   ExternalLink,
   CheckCircle,
   Copy,
-  ArrowRight,
-  Layers,
   FileText,
   Gauge
 } from 'lucide-react';
+import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   const copyToClipboard = (text: string) => {
@@ -354,6 +353,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
